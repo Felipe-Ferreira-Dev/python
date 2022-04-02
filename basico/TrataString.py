@@ -1,14 +1,10 @@
 def trataString(str):
 
-    if(str.find('-')):
-        str = str.replace('-', ' ')
-        str = str.title()
-        strTratada = str.replace(' ', '')
-        return strTratada
-    else:
-        str = str.title()
-        strTratada = str
-        return strTratada
+    strTratada = str.title()
+    if(strTratada.find('-')):
+        strTratada = strTratada.replace('-', '')
+    
+    return strTratada
 
 
 def main():
