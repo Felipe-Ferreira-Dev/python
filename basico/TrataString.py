@@ -2,7 +2,6 @@ def trataString(str):
 
     strTratada = str.title()
     if('-' in strTratada):
-        print('if')
         strTratada = strTratada.replace('-', '')
     
     return strTratada
